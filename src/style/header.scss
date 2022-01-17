@@ -7,8 +7,8 @@
 
     .logo {
         img {
-            width: 80%;
-            padding: 15px 0;
+            width: 75%;
+            padding: 20px 0;
         }
     }
     
@@ -20,6 +20,7 @@
 
         li {
             margin: 0 20px;
+            color: $dove-grey;
 
             &.current {
                 color: $bright-sun;
@@ -27,12 +28,17 @@
 
             a {
                 text-decoration: none;
-                color: $dove-grey;
+                color: inherit;
             }
 
             .my-btn {
                 background-color: $bright-sun;
                 padding: 8px 16px;
+
+                &:hover {
+                    background-color: $tuatara;
+                    color: $white;
+                }
             }
         }
     }

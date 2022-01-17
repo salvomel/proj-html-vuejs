@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Header :links = "navLinks" />
+    <Main />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+import Main from "./components/Main.vue";
 
 export default {
   name: "App",
   components: {
     Header,
+    Main,
   },
   data: function () {
     return {
@@ -19,11 +22,6 @@ export default {
           text: 'home',
           url: '#',
           current: true
-        },
-        {
-          text: 'about',
-          url: '#',
-          current: false
         },
         {
           text: 'about',
