@@ -1,28 +1,56 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Header :links = "navLinks" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Header from "./components/Header.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Header,
+  },
+  data: function () {
+    return {
+      navLinks: [
+        {
+          text: 'home',
+          url: '#',
+          current: true
+        },
+        {
+          text: 'about',
+          url: '#',
+          current: false
+        },
+        {
+          text: 'about',
+          url: '#',
+          current: false
+        },
+        {
+          text: 'services',
+          url: '#',
+          current: false
+        },
+        {
+          text: 'work',
+          url: '#',
+          current: false
+        },
+        {
+          text: 'articles',
+          url: '#',
+          current: false
+        },
+      ],
+    }
   },
 };
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import './style/general';
 </style>
