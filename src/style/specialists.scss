@@ -1,0 +1,50 @@
+@import './variables';
+
+section {
+    text-align: center;
+    padding: 100px 0;
+    color: $tuatara;
+
+    h3 {
+        font-size: 25px;
+
+        // &::after {
+        //     border: 1px solid black;
+        //     margin: 40px 0px;
+        //     width: 30%;
+        // }
+    }
+
+    .sub-text {
+        font-size: 13px;
+    }
+
+    .services {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+
+        .single-card {
+            background-color: $pampas;
+            margin: 15px;
+            padding: 20px;
+            
+            .icon {
+                font-size: 22px;
+                border: 1px solid;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                padding: 10px;
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 25px;
+            }
+        }
+        
+      }
+}

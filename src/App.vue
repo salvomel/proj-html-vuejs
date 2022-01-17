@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <Header :links = "navLinks" />
-    <Main />
+    <Main :cards = "cardList"/>
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
+import data from './data/data.json'
 
 export default {
   name: "App",
@@ -17,33 +18,8 @@ export default {
   },
   data: function () {
     return {
-      navLinks: [
-        {
-          text: 'home',
-          url: '#',
-          current: true
-        },
-        {
-          text: 'about',
-          url: '#',
-          current: false
-        },
-        {
-          text: 'services',
-          url: '#',
-          current: false
-        },
-        {
-          text: 'work',
-          url: '#',
-          current: false
-        },
-        {
-          text: 'articles',
-          url: '#',
-          current: false
-        },
-      ],
+      navLinks: data.links,
+      cardList: data.cards
     }
   },
 };

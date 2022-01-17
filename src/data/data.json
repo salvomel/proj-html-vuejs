@@ -1,0 +1,54 @@
+{
+    "links": [
+        {
+            "text": "home",
+            "url": "#",
+            "current": true
+        },
+        {
+            "text": "about",
+            "url": "#",
+            "current": false
+        },
+        {
+            "text": "services",
+            "url": "#",
+            "current": false
+        },
+        {
+            "text": "work",
+            "url": "#",
+            "current": false
+        },
+        {
+            "text": "articles",
+            "url": "#",
+            "current": false
+        }
+    ],
+
+    "cards": {
+        "services": [
+            {
+                "class": "far fa-building",
+                "title": "Buildings",
+                "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum obcaecati provident soluta iure fuga, culpa "
+            },
+            {
+                "class": "fas fa-sync",
+                "title": "Renovate",
+                "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum obcaecati provident soluta iure fuga, culpa "
+            },
+            {
+                "class": "fas fa-home",
+                "title": "Construct",
+                "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum obcaecati provident soluta iure fuga, culpa "
+            },
+            {
+                "class": "fas fa-truck",
+                "title": "Exclusive",
+                "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum obcaecati provident soluta iure fuga, culpa "
+            }
+        ]
+    }
+}
