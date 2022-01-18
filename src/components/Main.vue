@@ -1,22 +1,22 @@
 <template>
     <main>
-        <Jumbotron1 />
+        <Jumbotron />
         <Specialists :services= "cards.services" />
-        <Jumbotron2 :numbers= "cards.numbers" />
+        <Numbers :numbers= "cards.numbers" />
     </main>
 </template>
 
 <script>
-import Jumbotron1 from "./Jumbotron1.vue";
+import Jumbotron from "./Jumbotron.vue";
 import Specialists from "./Specialists.vue";
-import Jumbotron2 from "./Jumbotron2.vue";
+import Numbers from "./Numbers.vue";
 
 export default {
     name: 'Main',
     components: {
-        Jumbotron1,
+        Jumbotron,
         Specialists,
-        Jumbotron2,
+        Numbers,
     },
      props:{
         cards: Object,
