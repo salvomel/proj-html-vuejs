@@ -17,7 +17,7 @@
                     <p>{{ service.text }}</p>
                     <!-- Card overlay -->
                     <!-- <div class="card-overlay">
-                        <h3>ARTFULLY CRAFTED</h3>
+                        <h4>ARTFULLY CRAFTED</h4>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsum
                             fugiat maxime laudantium perferendis consequatur eligendi corrupt

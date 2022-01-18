@@ -6,6 +6,7 @@
         <Works :works= "cards.works" />
         <Values :values= "cards.values"/>
         <Owners />
+        <News :news= "cards.news"/>
     </main>
 </template>
 
@@ -16,6 +17,7 @@ import Numbers from "./Numbers.vue";
 import Works from "./Works.vue";
 import Values from "./Values.vue";
 import Owners from "./Owners.vue";
+import News from "./News.vue";
 
 export default {
     name: 'Main',
@@ -26,6 +28,7 @@ export default {
         Works,
         Values,
         Owners,
+        News,
     },
      props:{
         cards: Object,

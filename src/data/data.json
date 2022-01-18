@@ -114,6 +114,26 @@
                 "title": "Creative Solutions",
                 "text": "Neque porro quisiquam est, qui dolorem ipsum quia dolor sit amet. consectetur, adipisci velid, sed quia"
             }
-        ]
+        ],
+        "news": [
+            {
+                "image": "blog-post-134132600.jpg",
+                "title": "Redeveloping Florida's Remote Southen Coast",
+                "date": "December 7th, 2015",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quaerat ea enim itaque eaque obcaeca sit ut exercitationem minima fugiat cumque, deleniti similique? Aliquam deleniti"
+            },
+            {
+                "image": "blog-post-92486644.jpg",
+                "title": "How We Manage Large Construction Projects",
+                "date": "December 7th, 2015",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quaerat ea enim itaque eaque obcaeca sit ut exercitationem minima fugiat cumque, deleniti similique? Aliquam deleniti"
+            },
+            {
+                "image": "blog-post-332773904.jpg",
+                "title": "Future Proofing a Modern Home",
+                "date": "December 6th, 2015",
+                "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quaerat ea enim itaque eaque obcaeca sit ut exercitationem minima fugiat cumque, deleniti similique? Aliquam deleniti"
+            }
+          ]
     }
 }

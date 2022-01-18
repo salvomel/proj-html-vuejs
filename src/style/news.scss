@@ -1,0 +1,70 @@
+@import './variables';
+
+section {
+    text-align: center;
+    padding: 100px 0;
+    color: $tuatara;
+    background-color: $pampas;
+
+    h3 {
+        font-size: 25px;
+
+        &::after {
+            display: block;
+            content: '';
+            width: 150px;
+            height: 2px;
+            background-color: $bright-sun;
+            position: absolute;
+            left: 50%;
+            margin: 20px -75px;
+        }
+    }
+
+    .sub-text {
+        font-size: 13px;
+        margin-top: 50px;
+    }
+
+    .news {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+
+        .single-card {
+            margin: 10px;
+            width: 280px;
+            text-align: left;
+            color: $tuatara;
+            background-color: $white;
+
+            img {
+                width: 100%;
+            }
+            .article {
+                padding: 15px;
+
+                h4 {
+                    font-size: 20px;
+                    line-height: 25px;
+                }
+    
+                .date {
+                    font-size: 10px;
+                }
+    
+                .text {
+                    font-size: 12px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+
+    .more {
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
