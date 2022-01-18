@@ -49,6 +49,28 @@
                 "title": "Exclusive",
                 "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum obcaecati provident soluta iure fuga, culpa "
             }
+        ],
+        "numbers": [
+            {
+                "class": "fas fa-suitcase",
+                "number": "3534",
+                "role": "PLANNING APPLICATIONS"
+            },
+            {
+                "class": "far fa-building",
+                "number": "896",
+                "role": "COMPLETED PROJECTS"
+            },
+            {
+                "class": "fas fa-users",
+                "number": "172",
+                "role": "TRAINED PROFESSIONALS"
+            },
+            {
+                "class":"fas fa-globe",
+                "number": "19",
+                "role": "INTERNATIONALS OFFICES"
+            }
         ]
     }
 }

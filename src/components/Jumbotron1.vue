@@ -17,10 +17,10 @@
 
 <script>
 export default {
-    name: 'Jumbotron_1',
+    name: 'Jumbotron1',
 }
 </script>
 
 <style scoped lang="scss">
-    @import '../style/jumbotron_1';
+    @import '../style/jumbotron1';
 </style>
