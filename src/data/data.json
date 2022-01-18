@@ -134,6 +134,23 @@
                 "date": "December 6th, 2015",
                 "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quaerat ea enim itaque eaque obcaeca sit ut exercitationem minima fugiat cumque, deleniti similique? Aliquam deleniti"
             }
-          ]
+          ],
+          "partners": [
+            {
+                "image": "home-logo11-219096700-320x202.png"
+            },
+            {
+                "image": "home-logo10-219096700-320x202.png"
+            },
+            {
+                "image": "home-logo2-219096700-320x202.png"
+            },
+            {
+                "image": "home-logo1-219096700-320x202.png"
+            },
+            {
+                "image": "home-logo9-219096700-320x202.png"
+            }
+        ]
     }
 }

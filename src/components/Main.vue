@@ -7,6 +7,8 @@
         <Values :values= "cards.values"/>
         <Owners />
         <News :news= "cards.news"/>
+        <Partners :partners= "cards.partners"/>
+        <Building />
     </main>
 </template>
 
@@ -18,6 +20,8 @@ import Works from "./Works.vue";
 import Values from "./Values.vue";
 import Owners from "./Owners.vue";
 import News from "./News.vue";
+import Partners from "./Partners.vue";
+import Building from "./Building.vue";
 
 export default {
     name: 'Main',
@@ -29,6 +33,8 @@ export default {
         Values,
         Owners,
         News,
+        Partners,
+        Building
     },
      props:{
         cards: Object,
@@ -37,6 +43,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    
 </style>
 

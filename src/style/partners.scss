@@ -1,0 +1,42 @@
+@import './variables';
+
+section {
+    padding: 100px 0;
+    color: $tuatara;
+    text-align: center;
+
+    h3 {
+        font-size: 25px;
+
+        &::after {
+            display: block;
+            content: '';
+            width: 150px;
+            height: 2px;
+            background-color: $bright-sun;
+            position: absolute;
+            left: 50%;
+            margin: 20px -75px;
+        }
+    }
+
+    .sub-text {
+        font-size: 13px;
+        margin-top: 50px;
+    }
+
+    .partners {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+
+        .single-card {
+            margin: 12px;
+            width: 150px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

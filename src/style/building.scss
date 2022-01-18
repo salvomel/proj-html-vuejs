@@ -1,0 +1,64 @@
+@import './variables';
+
+.building-background {
+    background-image: url("../assets/img/about-call-to-action-57862405.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: $white;
+    padding: 0 60px;
+    
+    h3 {
+        font-size: 25px;
+    
+        // &::after {
+        //     display: block;
+        //     content: '';
+        //     width: 150px;
+        //     height: 2px;
+        //     background-color: $bright-sun;
+        //     position: absolute;
+        //     left: 0;
+        //     margin: 20px -75px;
+        // }
+    }
+    
+    .sub-text {
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    button {
+        background-color: $bright-sun;
+        color: $tuatara;
+        border: none;
+        padding: 8px 16px;
+    
+        a {
+          text-decoration: none;
+          font-size: 15px;
+          text-transform: uppercase;
+        }
+
+        &:hover {
+          background-color: $tuatara;
+          cursor: pointer;
+        }
+    
+        &:hover a {
+          color: $white;
+        }
+    }
+
+    .sub-btn-text {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+
