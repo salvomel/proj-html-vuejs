@@ -3,7 +3,10 @@
         <div class="container">
             <!-- Title -->
             <h3>Specialists in Modern Construction</h3>
-            <p class="sub-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum obcaecati ex quas, non veritatis provident soluta iure fuga, culpa molestias, debitis optio vel ipsa.</p>
+            <p class="sub-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Eum obcaecati ex quas, non veritatis provident soluta iure fuga, culpa molestias, debitis optio vel ipsa.
+            </p>
             <div class="services">
                 <!-- Single card -->
                 <div v-for="(service, index) in services" :key="index" class="single-card">

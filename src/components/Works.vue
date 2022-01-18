@@ -2,10 +2,9 @@
     <section>
         <div class="container">
             <h3>Explore Recent Work</h3>
-            <p class="sub-text"> 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Aliquid doloribus aut, fugiat veniam quo id sequi magni et distinctio ipsum
-                facilis quasi, vitae tenetur, minima iste? Nihil ab quisquam autem?
+            <p class="sub-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Eum obcaecati ex quas, non veritatis provident soluta iure fuga, culpa molestias, debitis optio vel ipsa.
             </p>
             <!-- Img card -->
             <div class="works">
@@ -22,6 +21,7 @@
                     </div> -->
                 </div>
             </div>
+            <div class="more">View all projects</div>
         </div>
     </section>
 </template>

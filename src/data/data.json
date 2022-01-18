@@ -54,22 +54,22 @@
             {
                 "class": "fas fa-suitcase",
                 "number": "3534",
-                "name": "PLANNING APPLICATIONS"
+                "name": "Planning applications"
             },
             {
                 "class": "far fa-building",
                 "number": "896",
-                "name": "COMPLETED PROJECTS"
+                "name": "Completed projects"
             },
             {
                 "class": "fas fa-users",
                 "number": "172",
-                "name": "TRAINED PROFESSIONALS"
+                "name": "Trained professionals"
             },
             {
                 "class":"fas fa-globe",
                 "number": "19",
-                "name": "INTERNATIONALS OFFICES"
+                "name": "International offices"
             }
         ],
         "works": [
@@ -87,6 +87,32 @@
                 "image": "project3-featured-189023420-400x400.jpg",
                 "name": "New York Health Facility",
                 "type": "Commercial"
+            }
+        ],
+        "values": [
+            {
+                "color": "lightblue",
+                "class": "fas fa-home",
+                "title": "Great Services",
+                "text": "Neque porro quisiquam est, qui dolorem ipsum quia dolor sit amet. consectetur, adipisci velid, sed quia"
+            },
+            {
+                "color": "blue",
+                "class": "far fa-sun",
+                "title": "Highest Standard",
+                "text": "Neque porro quisiquam est, qui dolorem ipsum quia dolor sit amet. consectetur, adipisci velid, sed quia"
+            },
+            {
+                "color": "orange",
+                "class": "fas fa-users",
+                "title": "Professional Team",
+                "text": "Neque porro quisiquam est, qui dolorem ipsum quia dolor sit amet. consectetur, adipisci velid, sed quia"
+            },
+            {
+                "color": "green",
+                "class": "far fa-lightbulb",
+                "title": "Creative Solutions",
+                "text": "Neque porro quisiquam est, qui dolorem ipsum quia dolor sit amet. consectetur, adipisci velid, sed quia"
             }
         ]
     }

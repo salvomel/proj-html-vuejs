@@ -1,0 +1,81 @@
+@import './variables';
+
+section {
+    text-align: center;
+    padding: 100px 0;
+    background-color: $pampas;
+    color: $tuatara;
+
+    h3 {
+        font-size: 25px;
+
+        &::after {
+            display: block;
+            content: '';
+            width: 150px;
+            height: 2px;
+            background-color: $bright-sun;
+            position: absolute;
+            left: 50%;
+            margin: 20px -75px;
+        }
+    }
+
+    .sub-text {
+        font-size: 13px;
+        margin-top: 50px;
+    }
+
+    .values {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        color: $tuatara;
+
+        .single-card {
+            margin: 20px;
+            margin-top: 30px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 12px;
+            line-height: 22px;
+
+            h4 {
+                font-size: 13px;
+            }
+
+            i {
+                color: $white;
+                font-size: 45px;
+                padding-top: 22px;
+            }
+
+            .icon {
+                border-radius: 50%;
+                width: 90px;
+                height: 90px;
+                margin-bottom: 25px;
+            }
+
+            .icon-hover:hover {
+                background-color: $bright-sun;
+                cursor: pointer;
+            }
+
+            .lightblue {
+                background-color: #4ea4a5; 
+            }
+            .blue {
+                background-color: #4e6da5;
+            }
+            .orange {
+                background-color: #f6722a;
+            }
+            .green {
+                background-color: #a7cf47;
+            }
+        }
+    }
+}
