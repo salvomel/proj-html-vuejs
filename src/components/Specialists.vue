@@ -6,14 +6,14 @@
             <p class="sub-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum obcaecati ex quas, non veritatis provident soluta iure fuga, culpa molestias, debitis optio vel ipsa.</p>
             <div class="services">
                 <!-- Single card -->
-                <div v-for="(card, index) in services" :key="index" class="single-card">
+                <div v-for="(service, index) in services" :key="index" class="single-card">
                     <div class="icon">
-                        <i :class="card.class"></i>
+                        <i :class="service.class"></i>
                     </div>
-                    <h4>{{ card.title }}</h4>
-                    <p>{{ card.text }}</p>
+                    <h4>{{ service.title }}</h4>
+                    <p>{{ service.text }}</p>
                     <!-- Card overlay -->
-                    <!-- <div class="card-overlay">
+                    <!-- <div class="card-overlay text">
                         <h3>ARTFULLY CRAFTED</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsum

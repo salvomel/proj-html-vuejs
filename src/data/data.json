@@ -54,22 +54,39 @@
             {
                 "class": "fas fa-suitcase",
                 "number": "3534",
-                "role": "PLANNING APPLICATIONS"
+                "name": "PLANNING APPLICATIONS"
             },
             {
                 "class": "far fa-building",
                 "number": "896",
-                "role": "COMPLETED PROJECTS"
+                "name": "COMPLETED PROJECTS"
             },
             {
                 "class": "fas fa-users",
                 "number": "172",
-                "role": "TRAINED PROFESSIONALS"
+                "name": "TRAINED PROFESSIONALS"
             },
             {
                 "class":"fas fa-globe",
                 "number": "19",
-                "role": "INTERNATIONALS OFFICES"
+                "name": "INTERNATIONALS OFFICES"
+            }
+        ],
+        "works": [
+            {
+                "image": "project2-featured-15013609-400x400.jpg",
+                "name": "Florida Health Facility",
+                "type": "Commercial"
+            },
+            {
+                "image": "project1-featured-294276386-400x400.jpg",
+                "name": "California Health Facility",
+                "type": "Commercial"
+            },
+            {
+                "image": "project3-featured-189023420-400x400.jpg",
+                "name": "New York Health Facility",
+                "type": "Commercial"
             }
         ]
     }

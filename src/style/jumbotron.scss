@@ -2,17 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .jumbotron {
-    background-image: url("../assets/img/home-slider-62528242.jpg");
-    height: 640px;
-    max-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  background-image: url("../assets/img/home-slider-62528242.jpg");
+  height: 640px;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   h2 {
     color: $bright-sun-mat;
@@ -65,6 +64,7 @@
 
   .btn-work:hover {
     background-color: $bright-sun-mat;
+
     a {
       color: $tuatara;
     }
@@ -72,21 +72,22 @@
 
   .btn-quote:hover {
     background-color: $tuatara;
+
     a {
       color: $white;
     }
   }
+}
 
-  .sub-jumbo {
-    background-color: $bright-sun-mat;
-    height: 120px;
-    text-align: center;
+.sub-jumbo {
+  background-color: $bright-sun-mat;
+  height: 120px;
+  text-align: center;
 
-    h3 {
-      font-size: 28px;
-      padding: 35px 0 25px 0;
-      font-weight: 400;
-    }
+  h3 {
+    font-size: 28px;
+    padding: 35px 0 25px 0;
+    font-weight: 400;
   }
 
   .btn-free-quote {
@@ -112,3 +113,5 @@
       color: $tuatara;
     }
   }
+}
+
