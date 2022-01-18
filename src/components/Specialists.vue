@@ -16,7 +16,7 @@
                     <h4>{{ service.title }}</h4>
                     <p>{{ service.text }}</p>
                     <!-- Card overlay -->
-                    <!-- <div class="card-overlay text">
+                    <!-- <div class="card-overlay">
                         <h3>ARTFULLY CRAFTED</h3>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsum

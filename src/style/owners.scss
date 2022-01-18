@@ -1,0 +1,36 @@
+@import './variables';
+
+.owners-background {
+    background-image: url("../assets/img/home-parallax-144609983.jpg");
+    height: 580px;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+
+    h4 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        margin-top: 60px;
+        width: 40%;
+        text-align: center;
+        margin: 30px;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+    
+    img {
+        width: 8%;
+        border-radius: 50%;
+    }
+}
