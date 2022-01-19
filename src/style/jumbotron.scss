@@ -12,6 +12,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 
   h2 {
     color: $bright-sun-mat;
@@ -39,42 +40,87 @@
 
     a {
       display: block;
-      padding: 8px 16px;
+      padding: 8px 20px;
       color: $white;
       text-decoration: none;
-      font-size: 15px;
+      font-size: 14px;
       text-transform: uppercase;
+    }
+
+    &:hover {
+      background-color: $bright-sun;
+  
+      a {
+        color: $tuatara;
+      }
     }
   }
 
   .btn-quote {
-    background-color: $bright-sun-mat;
+    background-color: $bright-sun;
     border: none;
     margin: 0 10px;
 
     a {
       display: block;
-      padding: 8px 16px;
+      padding: 8px 20px;
       color: $tuatara;
       text-decoration: none;
-      font-size: 15px;
+      font-size: 14px;
       text-transform: uppercase;
     }
+
+    &:hover {
+      background-color: $tuatara;
+  
+      a {
+        color: $white;
+      }
+    }
   }
+  
+  .demos {
+    position: absolute;
+    top: 2%;
+    left: 95%;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $limed-spruce;
 
-  .btn-work:hover {
-    background-color: $bright-sun-mat;
-
-    a {
-      color: $tuatara;
+    i {
+      font-size: 16px;
+      margin-top: 4px;
     }
   }
 
-  .btn-quote:hover {
-    background-color: $tuatara;
+  .sale {
+    position: absolute;
+    top: 11%;
+    left: 95%;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    a {
-      color: $white;
+    div {
+      font-size: 16px;
+      margin-top: 3px;
+      color: green;
+      font-weight: bold;
     }
   }
 }
@@ -85,7 +131,7 @@
   text-align: center;
 
   h3 {
-    font-size: 28px;
+    font-size: 25px;
     padding: 35px 0 25px 0;
     font-weight: 400;
   }
@@ -99,18 +145,18 @@
       font-family: 'Montserrat', sans-serif;
       color: $white;
       display: block;
-      padding: 8px 16px;
+      padding: 8px 20px;
       text-decoration: none;
-      font-size: 13px;
+      font-size: 12px;
     }
-  }
 
-  .btn-free-quote:hover {
-    background-color: $white;
-    border: 2px solid $tuatara;
-    
-    a {
-      color: $tuatara;
+    &:hover {
+      background-color: $white;
+      border: 2px solid $tuatara;
+      
+      a {
+        color: $tuatara;
+      }
     }
   }
 }

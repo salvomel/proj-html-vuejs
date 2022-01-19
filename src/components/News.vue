@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="more">View all projects</div>
+            <div class="more">View all articles</div>
         </div>
     </section>
 </template>

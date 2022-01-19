@@ -22,7 +22,7 @@
                         <h4>ARTFULLY CRAFTED</h4>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsum
-                            fugiat maxime laudantium perferendis consequatur eligendi corrupt
+                            fugiat maxime laudantium perferendis
                         </p>
                         <button><a href="#">GET A QUOTE</a></button>
                     </div>

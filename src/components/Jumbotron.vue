@@ -7,6 +7,14 @@
               <button class="btn-work"><a href="#">Explore recent work</a></button>
               <button class="btn-quote"><a href="#">Get a quote today</a></button>
             </div>
+            <div class="demos">
+                <i class="fas fa-images"></i>
+                <span>Demos</span>
+            </div>
+            <div class="sale">
+                <div>$39</div>
+                <span>On Sale</span>
+            </div>
         </div>
         <div class="sub-jumbo">
           <h3>Do You Have A Construction Project We Can Help With?</h3>

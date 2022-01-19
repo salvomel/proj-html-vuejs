@@ -2,60 +2,61 @@
 
 .building-background {
     background-image: url("../assets/img/about-call-to-action-57862405.jpg");
-    height: 300px;
-    background-position: center;
+    height: 320px;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     color: $white;
     padding: 0 60px;
     
-    h3 {
+    .left {
+      margin-right: 150px;
+
+      h3 {
         font-size: 25px;
-    
-        // &::after {
-        //     display: block;
-        //     content: '';
-        //     width: 150px;
-        //     height: 2px;
-        //     background-color: $bright-sun;
-        //     position: absolute;
-        //     left: 0;
-        //     margin: 20px -75px;
-        // }
-    }
-    
-    .sub-text {
-        font-size: 15px;
-        margin-top: 50px;
-    }
-
-    button {
-        background-color: $bright-sun;
-        color: $tuatara;
-        border: none;
-        padding: 8px 16px;
-    
-        a {
-          text-decoration: none;
+      
+        &::after {
+          display: block;
+          content: '';
+          width: 30%;
+          height: 1px;
+          background-color: $bright-sun;
+          margin: 20px 0;
+        }
+      }
+      
+      .sub-text {
           font-size: 15px;
-          text-transform: uppercase;
-        }
-
-        &:hover {
-          background-color: $tuatara;
-          cursor: pointer;
-        }
-    
-        &:hover a {
-          color: $white;
-        }
+      }
     }
+    button {
+      background-color: $bright-sun;
+      color: $tuatara;
+      border: none;
+      padding: 8px 30px;
+  
+      a {
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: inherit;
+        font-family: 'Montserrat', sans-serif;
+      }
 
+      &:hover {
+        background-color: $tuatara;
+        cursor: pointer;
+      }
+  
+      &:hover a {
+        color: $white;
+      }
+  }
     .sub-btn-text {
-        font-size: 13px;
+        font-size: 11px;
         text-align: center;
         margin-top: 10px;
     }

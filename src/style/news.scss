@@ -2,13 +2,13 @@
 
 section {
     text-align: center;
-    padding: 100px 0;
+    padding: 70px 0;
     color: $tuatara;
     background-color: $pampas;
 
     h3 {
         font-size: 25px;
-
+        
         &::after {
             display: block;
             content: '';
@@ -106,6 +106,15 @@ section {
     
                 .date {
                     font-size: 10px;
+
+                    &::after {
+                        display: block;
+                        content: '';
+                        width: 100%;
+                        height: 1px;
+                        background-color: $pampas;
+                        margin-top: 10px;
+                    }
                 }
     
                 .text {
@@ -117,9 +126,29 @@ section {
     }
 
     .more {
-        margin-top: 20px;
+        margin-top: 30px;
         text-transform: uppercase;
-        font-size: 13px;
+        font-size: 11px;
         font-family: 'Montserrat', sans-serif;
+
+        &::before {
+            display: inline-block;
+            content: '';
+            width: 20%;
+            height: 1px;
+            background-color: $white;
+            margin-top: 5px;
+            margin-right: 60px;
+        }
+
+        &::after {
+            display: inline-block;
+            content: '';
+            width: 20%;
+            height: 1px;
+            background-color: $white;
+            margin-top: 5px;
+            margin-left: 60px;
+        }
     }
 }

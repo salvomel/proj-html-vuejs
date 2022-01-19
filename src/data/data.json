@@ -185,17 +185,17 @@
             "url": "#"
         },
         {
-            "class":"fas fa-envelope",
+            "class":"far fa-envelope",
             "text": "info@your-domain.com",
             "url": "#"
         },
         {
-            "class":"fas fa-clock",
+            "class":"far fa-clock",
             "text": "Monday - Friday: 9:00 AM - 6:00 PM",
             "url": "#"
         },
         {
-            "class":"fas fa-clock",
+            "class":"far fa-clock",
             "text": "Saturday - Sunday: 9:00 AM - 12:00 PM",
             "url": "#"
         }
