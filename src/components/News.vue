@@ -8,22 +8,25 @@
             </p>
             <!-- Img card -->
             <div class="news">
+                <!-- Single card -->
                 <div v-for="(art, index) in news" :key="index" class="single-card">
-                    <img :src="require('../assets/img/' + art.image)" :alt="art.title" />
+                    <div class="card-img">
+                        <img :src="require('../assets/img/' + art.image)" :alt="art.title" />
+                        <!-- Card overlay -->
+                        <div class="card-overlay">
+                            <div>
+                                <div class="icon"><i class="fas fa-link"></i></div>
+                                <div class="icon"><i class="fas fa-search"></i></div>
+                            </div>
+                            <h4>{{ art.title }}</h4>
+                            <p>Architecture, Buildings, Construction, News</p>
+                        </div>
+                    </div>
                     <div class="article">
                         <h4>{{ art.title }}</h4>
                         <p class="date">{{ art.date }}</p>
                         <p class="text">{{ art.text }}</p>
                     </div>
-
-                    <!-- <div class="card-overlay">
-                        <div class="icon">
-                            <div class="circle"><i class="fas fa-link"></i></div>
-                            <div class="circle"><i class="fas fa-search"></i></div>
-                        </div>
-                            <h4>Redeveloping Florida's Remote Southern Coast</h4>
-                            <p>Architecture, Buildings, Construction, News</p>
-                    </div> -->
                 </div>
             </div>
             <div class="more">View all projects</div>

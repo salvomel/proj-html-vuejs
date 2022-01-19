@@ -8,17 +8,20 @@
             </p>
             <!-- Img card -->
             <div class="works">
+                <!-- Single card -->
                 <div v-for="(work, index) in works" :key="index" class="single-card">
-                    <img :src="require('../assets/img/' + work.image)" :alt="work.name" />
-            
-                    <!-- <div class="card-overlay">
-                        <div class="icon">
-                            <div class="circle"><i class="fas fa-link"></i></div>
-                            <div class="circle"><i class="fas fa-search"></i></div>
+                    <div class="top-card">
+                        <img :src="require('../assets/img/' + work.image)" :alt="work.name" />
+                    </div>
+                    <!-- Card overlay -->
+                    <div class="card-overlay">
+                        <div>
+                            <span class="icon"><i class="fas fa-link"></i></span>
+                            <span class="icon"><i class="fas fa-search"></i></span>
                         </div>
                         <h4>{{ work.name }}</h4>
                         <p>{{ work.type }}</p>
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <div class="more">View all projects</div>

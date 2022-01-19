@@ -12,6 +12,29 @@
     justify-content: center;
     align-items: center;
     color: $white;
+    position: relative;
+    overflow: hidden;
+
+    &:before{
+        background: $pampas;
+        position: absolute;
+        content: "";
+        left:0;
+        right:0;
+        top: -25px;
+        height: 80px;
+        border-radius: 0 0 50% 60%;
+    }
+    &:after{
+        background: $pampas;
+        position: absolute;
+        content: "";
+        left:0;
+        right:0;
+        bottom: -25px;
+        height: 80px;
+        border-radius: 50% 50% 0 0;
+    }
 
     h4 {
         font-size: 25px;

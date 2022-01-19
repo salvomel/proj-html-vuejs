@@ -10,20 +10,22 @@
             <div class="services">
                 <!-- Single card -->
                 <div v-for="(service, index) in services" :key="index" class="single-card">
-                    <div class="icon">
-                        <i :class="service.class"></i>
+                    <div class="top-card">
+                        <div class="icon">
+                            <i :class="service.class"></i>
+                        </div>
+                        <h4>{{ service.title }}</h4>
+                        <p>{{ service.text }}</p>
                     </div>
-                    <h4>{{ service.title }}</h4>
-                    <p>{{ service.text }}</p>
                     <!-- Card overlay -->
-                    <!-- <div class="card-overlay">
+                    <div class="card-overlay">
                         <h4>ARTFULLY CRAFTED</h4>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsum
                             fugiat maxime laudantium perferendis consequatur eligendi corrupt
                         </p>
                         <button><a href="#">GET A QUOTE</a></button>
-                    </div> -->
+                    </div>
                 </div> 
             </div>
         </div>

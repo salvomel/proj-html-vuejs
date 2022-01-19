@@ -31,26 +31,74 @@ section {
         justify-content: center;
 
         .single-card {
-            background-color: $pampas;
             margin: 15px;
-            padding: 20px;
-            border-radius: 8px;
-            // position: relative;
+            position: relative;
+            cursor: pointer;
             
-            .icon {
-                font-size: 22px;
-                border: 1px solid;
-                border-radius: 50%;
-                width: 50px;
-                height: 50px;
-                padding: 10px;
-                display: inline-block;
-                margin-bottom: 10px;
+            &:hover .top-card{
+                opacity: 0;
+                transition: 0.5s opacity;
+            }
+        
+            &:hover .card-overlay{
+                opacity: 1;
+                transition: 0.5s opacity;
             }
 
-            p {
-                font-size: 13px;
-                line-height: 25px;
+            .top-card {
+                background-color: $pampas;
+                border-radius: 8px;
+                height: 100%;
+                width: 100%;
+                padding: 20px;
+
+                .icon {
+                    font-size: 22px;
+                    border: 1px solid;
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    padding: 10px;
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
+    
+                p {
+                    font-size: 13px;
+                    line-height: 25px;
+                }
+            }
+
+            .card-overlay {
+                height: 100%;
+                width: 100%;
+                padding: 20px;
+                border-radius: 8px;
+                background-color: $bright-sun;
+                position: absolute;
+                opacity: 0;
+                z-index: 1;
+                top: 0;
+
+                h4 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 25px;
+                }
+
+                button {
+                    border: none;
+                    background-color: white;
+                    padding: 7px 20px;
+
+                    a {
+                        text-decoration: none;
+                        color: $tuatara;
+                    }
+                }
             }
         }
     }
