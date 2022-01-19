@@ -152,5 +152,51 @@
                 "image": "home-logo9-219096700-320x202.png"
             }
         ]
-    }
+    },
+
+    "tweets": [
+        {
+          "profilepic": "3a74ce3d0532b7773b174c45ca3bd05a_bigger.png",
+          "username": "ThemeFusion",
+          "logo": "image (1).svg",
+          "text": "Do you need sublime WordPress hosting for your next website? Take advantage of exclusive partner offers that we have secured just for you, & launch your site in seconds with #avanda on WP engine hosting & get 30% off this Black Friday bit.Ly/randomlink2020 ",
+          "img": "En2TRxLW4AEiWUN.jpeg",
+          "like": "image (2).svg",
+          "share": "image (3).svg",
+          "date": "22h"
+        }
+    ],
+
+    "contacts" : [
+        {
+            "class":"fas fa-globe",
+            "text": "Corporate Location 1600 Amphiteathre Parkway London WC11BA",
+            "url": "#"
+        },
+        {
+            "class":"fas fa-home",
+            "text": "Residential Location 9521 Broadsberry Avenue Paddington RC79ZA",
+            "url": "#"
+        },
+        {
+            "class":"fas fa-phone",
+            "text": "1.800.458.556 / 1.800.532.2112",
+            "url": "#"
+        },
+        {
+            "class":"fas fa-envelope",
+            "text": "info@your-domain.com",
+            "url": "#"
+        },
+        {
+            "class":"fas fa-clock",
+            "text": "Monday - Friday: 9:00 AM - 6:00 PM",
+            "url": "#"
+        },
+        {
+            "class":"fas fa-clock",
+            "text": "Saturday - Sunday: 9:00 AM - 12:00 PM",
+            "url": "#"
+        }
+    ]
 }

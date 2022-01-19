@@ -1,0 +1,150 @@
+@import './variables';
+
+footer {
+    background-color: $cod-grey;
+    border-top: 10px solid $tuatara;
+
+    .wrapper {
+        padding: 40px 0;
+
+        .company {
+            color: $storm-dust;
+            margin-top: 30px;
+
+            img {
+                width: 60%;
+            }
+
+            p {
+                font-size: 12px;
+                margin: 20px 0;
+            }
+
+            button {
+                background-color: $bright-sun;
+                border: none;
+                padding: 6px 20px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 13px;
+                    color: $tuatara;
+                }
+            }
+        }
+        
+        .tweets {
+            h3 {
+                font-size: 15px;
+                color: $bright-sun;
+                margin-bottom: 25px;
+                font-weight: 700;
+            }
+
+            .tweetcard {
+                color: $white;
+                display: flex;
+
+                .left-side {
+                    margin-right: 15px;
+
+                    .profilepic {
+                        border-radius: 50%;
+                        width: 25px;
+                    }
+                }
+                .right-side {
+
+                    .tweet-head {
+                        display: flex;
+                        justify-content: space-between;
+                        
+                        .logo {
+                            width: 20px;
+                        }
+                        
+                        .name {
+
+                            h6 {
+                                font-size: 12px;
+                            }
+        
+                            div {
+                                font-size: 10px;
+                            }
+                        }
+                    }  
+                }
+            }
+
+            p {
+                font-size: 11px;
+                margin: 20px 0;
+            }
+
+            .img-tweet {
+                width: 100%;
+            }
+            
+            .tweet-bottom {
+                display: flex;
+                justify-content: space-between;
+                color: $silver;
+                margin-top: 10px;
+
+                .like, .share {
+                    margin-right: 15px;
+                    width: 15px;
+                }
+                .data {
+                    font-size: 13px;
+                }
+            }
+        }   
+    
+
+        .contacts {
+            
+        h3 {
+            font-size: 15px;
+            color: $bright-sun;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+
+        ul {
+            list-style-type: none;
+            color: $storm-dust;
+
+            li {
+            font-size: 11px;
+            line-height: 20px;
+            margin-bottom: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+                i {
+                    margin-right: 10px;
+                }
+            }
+            
+          }
+        }
+        
+        .map {
+            h3 {
+                font-size: 15px;
+                color: $bright-sun;
+                margin-bottom: 25px;
+                font-weight: 700;
+            }
+
+            img {
+                width: 85%;
+            }
+        } 
+    }  
+}
