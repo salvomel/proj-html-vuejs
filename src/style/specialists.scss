@@ -97,6 +97,14 @@ section {
                     background-color: #f8e196;
                     padding: 7px 20px;
 
+                    &:hover {
+                        background-color: $tuatara;
+                        
+                        a {
+                            color: $white;
+                        }
+                    }
+
                     a {
                         font-size: 13px;
                         font-family: 'Montserrat', sans-serif;

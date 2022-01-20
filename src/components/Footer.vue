@@ -65,6 +65,7 @@
                     </div>
                 </div>
             </div>
+            <div @click="scrollToTop()" class="scroll-btn"><i class="fas fa-chevron-up"></i></div>
         </div>
 
         <div class="footer-bottom">
@@ -90,6 +91,11 @@ export default {
     props: {
         tweets: Array,
         contacts: Array
+    },
+    methods: { 
+        scrollToTop() {
+            window.scrollTo(0,0);
+        }
     }
 }
 </script>

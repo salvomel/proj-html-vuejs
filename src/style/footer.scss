@@ -5,6 +5,7 @@ footer {
     .footer-top {
         background-color: $cod-grey;
         border-top: 10px solid $tuatara;
+        position: relative;
 
         .wrapper {
             padding: 50px 0;
@@ -119,35 +120,34 @@ footer {
     
             .contacts {
                 
-            h3 {
-                font-size: 13px;
-                color: $bright-sun;
-                margin-bottom: 30px;
-                font-weight: 700;
-            }
-    
-            ul {
-                list-style-type: none;
-                color: $storm-dust;
-    
-                li {
-                font-size: 11px;
-                line-height: 20px;
-                margin-bottom: 10px;
-                display: flex;
-    
-                    a {
-                        text-decoration: none;
-                        color: inherit;
-                    }
-    
-                    i {
-                        margin-right: 10px;
-                        margin-top: 5px;
+                h3 {
+                    font-size: 13px;
+                    color: $bright-sun;
+                    margin-bottom: 30px;
+                    font-weight: 700;
+                }
+        
+                ul {
+                    list-style-type: none;
+                    color: $storm-dust;
+        
+                    li {
+                    font-size: 11px;
+                    line-height: 20px;
+                    margin-bottom: 10px;
+                    display: flex;
+        
+                        a {
+                            text-decoration: none;
+                            color: inherit;
+                        }
+        
+                        i {
+                            margin-right: 10px;
+                            margin-top: 5px;
+                        }
                     }
                 }
-                
-              }
             }
             
             .map {
@@ -162,7 +162,16 @@ footer {
                     width: 85%;
                 }
             } 
-        }  
+        }
+        
+        .scroll-btn {
+            position: absolute;
+            bottom: 0;
+            right: 25px;
+            font-size: 30px;
+            color: $bright-sun;
+            cursor: pointer;
+        }
     }
 
     .footer-bottom {
@@ -189,6 +198,5 @@ footer {
                 }
             }
         }
-
     }
 }

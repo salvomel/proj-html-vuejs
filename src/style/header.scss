@@ -1,5 +1,4 @@
 @import './variables';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .header-wrapper {
     display: flex;
@@ -36,14 +35,30 @@
                     content: "";
                     height: 0;
                     left: 50%;
-                    margin-left: -13px;
+                    margin-left: -20px;
                     position: absolute;
                     width: 0;
+                    z-index: 9;
                 }
             }
 
             &:hover a {
                 color: $bright-sun-mat;
+
+                &:after {
+                    border-left: solid transparent 20px;
+                    border-right: solid transparent 20px;
+                    border-bottom: solid white 20px;
+                    transform: rotate(180deg);
+                    bottom: -50px;
+                    content: "";
+                    height: 0;
+                    left: 50%;
+                    margin-left: -20px;
+                    position: absolute;
+                    width: 0;
+                    z-index: 9;
+                }
             }
 
             a {
